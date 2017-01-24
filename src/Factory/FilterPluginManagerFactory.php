@@ -18,13 +18,16 @@ use Zend\Filter\FilterPluginManager;
  */
 class FilterPluginManagerFactory
 {
+    protected $configKey = 'dot_filter';
+    protected $filterPluginConfigKey = 'filter_manager';
+
     public function __invoke(ContainerInterface $container)
     {
         $config = $container->has('config') ? $container->get('config') : [];
-        if (isset($config['dot_filter'])
-            && isset($config['dot_filter']['filter_manager'])
-            && is_array($config['dot_filter']['filter_manager'])) {
-            $config = $config['dot_filter']['filter_manager'];
+        if (isset($config[$this->configKey])
+            && isset($config[$this->configKey][$this->filterPluginConfigKey])
+            && is_array($config[$this->configKey][$this->filterPluginConfigKey])) {
+            $config = $config[$this->configKey][$this->filterPluginConfigKey];
         }
 
         return new FilterPluginManager($container, $config);
