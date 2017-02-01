@@ -7,6 +7,8 @@
  * Time: 11:05 PM
  */
 
+declare(strict_types = 1);
+
 namespace Dot\Filter\Factory;
 
 use Interop\Container\ContainerInterface;
@@ -26,7 +28,8 @@ class FilterPluginManagerFactory
         $config = $container->has('config') ? $container->get('config') : [];
         if (isset($config[$this->configKey])
             && isset($config[$this->configKey][$this->filterPluginConfigKey])
-            && is_array($config[$this->configKey][$this->filterPluginConfigKey])) {
+            && is_array($config[$this->configKey][$this->filterPluginConfigKey])
+        ) {
             $config = $config[$this->configKey][$this->filterPluginConfigKey];
         }
 
