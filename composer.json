@@ -1,6 +1,6 @@
 {
   "name": "dotkernel/dot-filter",
-  "description": "Adapts zend-filter to DotKernel applications",
+  "description": "DotKernel filter component customizing and extending zend-filter",
   "authors": [
     {
       "name": "n3vrax",
@@ -39,7 +39,7 @@
   },
   "extra": {
     "branch-alias": {
-      "dev-master": "0.6-dev"
+      "dev-master": "1.1-dev"
     }
   }
 }
