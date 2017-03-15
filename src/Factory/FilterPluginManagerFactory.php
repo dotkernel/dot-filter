@@ -9,7 +9,7 @@ declare(strict_types = 1);
 
 namespace Dot\Filter\Factory;
 
-use Interop\Container\ContainerInterface;
+use Psr\Container\ContainerInterface;
 use Zend\Filter\FilterPluginManager;
 
 /**
