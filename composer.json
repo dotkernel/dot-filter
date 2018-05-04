@@ -3,8 +3,8 @@
   "description": "DotKernel filter component customizing and extending zend-filter",
   "authors": [
     {
-      "name": "n3vrax",
-      "email": "tibi@apidemia.com"
+      "name": "DotKernel Team",
+      "email": "team@dotkernel.com"
     }
   ],
   "type": "library",
@@ -20,8 +20,8 @@
   ],
   "require": {
     "php": "^7.1",
-    "zendframework/zend-servicemanager": "^3.3.0",
-    "zendframework/zend-filter": "^2.7"
+    "zendframework/zend-servicemanager": "^3.3",
+    "zendframework/zend-filter": "^2.8"
   },
   "require-dev": {
     "phpunit/phpunit": "^4.7",
