@@ -10,7 +10,7 @@ declare(strict_types = 1);
 namespace Dot\Filter;
 
 use Dot\Filter\Factory\FilterPluginManagerFactory;
-use Zend\Filter\FilterPluginManager;
+use Laminas\Filter\FilterPluginManager;
 
 /**
  * Class ConfigProvider
