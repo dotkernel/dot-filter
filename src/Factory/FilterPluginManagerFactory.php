@@ -10,7 +10,7 @@ declare(strict_types = 1);
 namespace Dot\Filter\Factory;
 
 use Psr\Container\ContainerInterface;
-use Zend\Filter\FilterPluginManager;
+use Laminas\Filter\FilterPluginManager;
 
 /**
  * Class FilterPluginManagerFactory
