@@ -8,6 +8,6 @@
 DotKernel filter component customizing and extending [laminas-filter](https://github.com/laminas/laminas-filter)
 
 ## Note
-**dot-filter** is in **maintenance** mode.
+> **dot-filter** is in **maintenance** mode.
 
-This package is considered feature-complete, and is now in **security-only** maintenance mode.
+> This package is considered feature-complete, and is now in **security-only** maintenance mode.
