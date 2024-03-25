@@ -1,3 +1,8 @@
+> [!CAUTION]
+> ## Security-Only Maintenance Mode
+> 
+> This package is considered feature-complete, and is now in **security-only** maintenance mode.
+
 # dot-filter
 
 
@@ -6,8 +11,3 @@
 ![PHP from Packagist (specify version)](https://img.shields.io/packagist/php-v/dotkernel/dot-filter/2.9.0)
 
 DotKernel filter component customizing and extending [laminas-filter](https://github.com/laminas/laminas-filter)
-
-## Note
-> **dot-filter** is in **maintenance** mode.
-
-> This package is considered feature-complete, and is now in **security-only** maintenance mode.
